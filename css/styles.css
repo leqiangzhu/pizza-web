@@ -1,0 +1,33 @@
+*{ 
+	font-family:'Josefin Slab', serif;
+}
+
+
+
+.container{
+	width: 1100px;
+	 
+	background:#ebeff2
+}
+body
+  {
+  ackground-color:#c0dfd9;
+  }
+
+#pizza-size{
+	width:20%;
+}
+
+#total-price{
+	display:none;
+	
+}
+
+
+
+footer {
+  position: relative;
+ background:#ebeff2
+  
+	
+}

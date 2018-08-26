@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>PIZZA</title>
+  </head>
+  
+  <body>
+    <div class="container">
+	<h1>welcome to pizza shop!!</h1>
+	 <div class="row">
+		<div class="col-md-6">
+		<div id="pizza-img">
+		 
+		<img src="img/pizzaimg-1.jpg"  alt="pizza-img" width=100%/>
+		
+		</div>
+		 </div>
+        <div class="col-md-6">
+		<form id="pizza-chose">
+			 <div class="form-group">
+			 
+              <label for="pizzasize">Select size</label>
+              <select class="form-control" id="pizza-size">
+                <option name="size" value="lager" >lager</option>
+                <option name="size" value="medium">medium</option>
+                <option name="size" value="small">small</option>
+                <option name="size" value="ex-lager">ex-lager</option>
+              </select>
+			  </div>
+			  <!-- bacon,pepperoni,beef,mushrooms,onions,
+			  green peppers,banana peppers 
+			  blcak olives--->
+			  <div class="form-group">
+			  <label for="pizzatoping">Select topping</label></br>
+			  <input id="bacon" type="checkbox" name="topping" value="bacon">bacon</br> 
+				<input id="pepperoni" type="checkbox" name="topping" value="pepperoni">pepperoni</br>  
+				<input id="beef" type="checkbox" name="topping" value="beef">beef</br>  
+				<input id="mushrooms" type="checkbox" name="topping" value="mushrooms">mushrooms</br>  
+				<input id="onions" type="checkbox" name="topping" value="onions">onions</br>  
+				<input id="green-peppers" type="checkbox" name="topping" value="green-peppers">green peppers</br>  
+				<input id="blcakolives" type="checkbox" name="topping" value="blcakolives">blcak olives</br>  
+				<input id="bananapeppers" type="checkbox" name="topping" value="bananapeppers">banana peppers</br>  
+				
+            </div>
+			 <button type="submit" class="btn btn-warning">Add to Cart</button>
+			 <button type="reset" class="btn btn-danger">Clear</button>
+		</form>
+		
+		 </div>
+	
+	</div>
+	<div id="total-price">
+		<p>the total price of your ordered is: $ <span id ="show-price"></span></p>
+	</div>
+
+	</div>
+	</body>
+	<footer>
+	
+	
+	
+
+	</footer>
