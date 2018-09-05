@@ -14,9 +14,10 @@ Create a website for a pizza company where a user can choose one or more individ
 2. Open "index.html" in browser.
 
 ## Specifications
-1.Allow user select the size (lager,medium,small,ex-lager);
-2.Allow user select the topping;
-3.The code output the price of the pizza, the price depends on which user selected
+
+1. Allow user select the size (lager,medium,small,ex-lager);_
+2. Allow user select the topping;_
+3. The codes output the price of the pizza, the price depends on which user selected_
 
 
 ## Support and contact details
