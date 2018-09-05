@@ -25,7 +25,7 @@ var eachPrice={
 	 inputtopping.each(function(){
 		 var choosetopping=$(this).val();
 		 toppings.push(choosetopping);
-	 })
+	 });
 	return toppings;
 }  
 
@@ -44,8 +44,8 @@ Pizza.prototype.checkePrice = function(){
 			var totalPrice=0;
 			//var toppingChoose;
 			this.toppings.forEach(function(topping){
-				totalPrice+=eachPrice[topping]
-			})
+				totalPrice+=eachPrice[topping];
+			});
 			return totalPrice;
 }; 
 
