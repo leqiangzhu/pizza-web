@@ -67,4 +67,16 @@ $(document).ready(function(){
 		$("#show-price").text(totalPrice);
 
 		});
+		
+		$("#clearform").click(function(){
+			$("#total-price").hide();
+			
+			
+		});
+		
+		
+		
+		
+		
+		
 		});
